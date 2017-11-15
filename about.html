@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>About Us</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="images/favicon/manifest.json">
+		<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="images/favicon/favicon.ico">
+		<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header"">
+				<h1>
+					<img src="images/rice_logo.png" height="30vh" style="margin: 0 !important; vertical-align: middle;">
+					<a href="index.html">Habitat For Humanity</a>
+				</h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="calendar.html">Calendar</a></li>
+						<li>
+							<div class="dropdown">
+								<button class="dropbtn"><a href="about.html">About</button></a>
+								<div class="dropdown-content">
+
+									<a href="officers.html" style="">Officers</a>
+									<ul></ul>
+									<a href="faq.html" style="">FAQ</a>
+
+								</div>
+							</div>
+						</li>
+						<li><a href="volunteer.html">Volunteer</li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+
+				<div class="container">
+					<header class="major special">
+						<h2 style="color: #005596 !important;">About Us</h2>
+					</header>
+					<!-- Gallery Code -->
+						<div class="w3-content w3-display-container" style="width:100%; height: 50vh; background-color: #000">
+							<img class="mySlides" src="images/about/gallery-tiles/image_0.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_1.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_2.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_3.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_4.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_5.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_6.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_7.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_8.jpg">
+							<img class="mySlides" src="images/about/gallery-tiles/image_9.jpg">
+							<div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+								<div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+								<div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+								<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
+							</div>
+
+						<script>
+						var slideIndex = 1;
+						showDivs(slideIndex);
+
+						function plusDivs(n) {
+							showDivs(slideIndex += n);
+						}
+
+						function currentDiv(n) {
+							showDivs(slideIndex = n);
+						}
+
+						function showDivs(n) {
+							var i;
+							var x = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("demo");
+							if (n > x.length) {slideIndex = 1}    
+							if (n < 1) {slideIndex = x.length}
+							for (i = 0; i < x.length; i++) {
+								x[i].style.display = "none";  
+							}
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" w3-white", "");
+							}
+							x[slideIndex-1].style.display = "block";  
+							dots[slideIndex-1].className += " w3-white";
+						}
+						</script>
+					</div>
+
+
+					<div id="holder" class="tri_column">
+						<div>
+							<h1 style="color: #51B948 !important;">History of Habitat International</h1>
+					   		<p>Habitat for Humanity International was founded in 1976 by Millard Fuller in Americus, Georgia. Habitat is a nonprofit, economical housing ministry dedicated to the ideal that all people deserve a simple, decent place to live on terms that they can afford to pay.</p>
+					   		<p>There are currently over 2,100 active Habitat affiliates around the globe in 100 countries. They have built more than 600,000 homes worldwide, housing more than 3 million people. More information about the history of Habitat for Humanity International <a target="_blank" href="http://www.habitat.org/how/historytext.aspx">here</a>.</p> 
+					   	</div>
+					   	<hr>
+						<div style="overflow: auto; text-align: center;">
+							<img src="images/about/oldhablogo.png" max-width="5%" alt="Rice University Habitat For Humanity" />  	
+					   	</div>
+					   	<div>
+							<h1 style="color: #51B948 !important;">Rice Habitat History</h1>
+							<p>The Rice campus chapter of Habitat for Humanity was founded in the early 1990's. Since that time, Rice Habitat has sponsored four Habitat Homes, including the recent Rice Centennial House. In addition to home sponsorship, Rice Habitat has provided students with the opportunity to volunteer with local Habitat Affiliates and to mentor youth in the Houston community. We are currently working towards sponsoring our fifth home. For more information about this project, see the Rice Second Century Home page. </p>
+					   	</div>
+	   				</div>
+	   				<hr>
+	   				<div>
+		   				<h1 style="color: #51B948 !important;">How it works:</h1>
+						There is a selection process to determine who receives Habitat homes. First, families in need of a decent shelter apply to local affiliates, and they are selected based on the level of need, their willingness to become partners in the Habitat program, and their ability to repay the loan. Through volunteer labor and tax deductible donations of money and materials, Habitat builds and rehabilitates modest, suitable houses which cost on average $60,000 in the United States. The Habitat houses are affordable for low-income families because there is no profit included in the sale price.
+
+						In addition to monthly mortgage payments, each homeowner invests approximately 300 hours of their own labor (sweat equity) into the building of their house and the houses of others. The sweat equity usually involves helping build other families' homes, taking classes about finance and home maintenance, and working on their own house.
+					</div>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/ricehabitatforhumanity/?fref=ts" class="icon fa-facebook"></a></li>
+						<li><a href="#" class="icon fa-twitter"></a></li>
+						<li><a href="https://www.instagram.com/ricehabitat/" class="icon fa-instagram"></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
